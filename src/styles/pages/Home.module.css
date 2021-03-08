@@ -1,0 +1,157 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    max-width: 992px;
+    margin: 0 auto;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.container > div {
+    background: var(--box-color);
+    max-width: 1250px;
+    display: flex;
+    padding: 2rem;
+    border-radius: 3rem;
+}
+
+.container > div:not(:first-child) {
+    margin-top: 2rem;
+}
+
+.container > div:last-child {
+    margin-bottom: 2rem;
+}
+
+.container > div > h1 {
+}
+
+.menu {
+    justify-content: space-around;
+}
+
+.menu a {
+    font-weight: bold;
+    font-size: large;
+}
+
+.startNow {
+    margin-top: 2rem;
+}
+
+.startNow > img {
+    width: 10rem;
+    height: 10rem;
+}
+
+.startNow > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0 2rem 0 2rem;
+    align-items: center;
+}
+
+.startNow > div button {
+    color: white;
+    background: var(--background);
+    border: none;
+    border-radius: 2rem;
+    width: fit-content;
+    height: fit-content;
+    padding: 1rem 2rem 1rem 2rem;
+    font-size: 1.2rem;
+}
+
+.aboutUs {
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutUs > div {
+    display: flex;
+    width: 100%;
+}
+
+.aboutUs > div p {
+    margin-right: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutUs .profiles {
+    display: flex;
+    padding: 1rem;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.aboutUs .profiles > img {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 5rem;
+    padding: 0.5rem;
+}
+
+.contactUs {
+    display: flex;
+    flex-direction: column;
+}
+
+.contactUs > div {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 1rem;
+}
+
+.contactUs > div .network {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contactUs > div .network img {
+    width: 100px;
+    height: 100px;
+}
+
+.contactUs > div .network strong {
+    margin-top: 0.5rem;
+}
+
+.contributeWithUs {
+    display: flex;
+    flex-direction: column;
+}
+
+.contributeWithUs > div {
+    display: flex;
+}
+
+.contributeWithUs > div > img {
+    width: 10rem;
+    height: 10rem;
+}
+
+.contributeWithUs > div > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 2rem 0 0;
+}
+
+.contributeWithUs > div > div button {
+    color: white;
+    background: var(--background);
+    border: none;
+    border-radius: 2rem;
+    width: fit-content;
+    height: fit-content;
+    padding: 1rem 2rem 1rem 2rem;
+    font-size: 1.2rem;
+}
