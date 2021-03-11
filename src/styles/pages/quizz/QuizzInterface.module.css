@@ -1,0 +1,58 @@
+.quizzInterfaceContainer {
+    background: #181818;
+    height: 100%;
+    margin: 0 auto;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 720px;
+}
+
+.pageTitleContainer {
+    width: 100%;
+    background: #FEC601;
+
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-radius: 1rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.configurationContainer {
+
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+
+    background: #FFF;
+    color: black;
+    font-weight: bold;
+    border-radius: 1rem;
+    width: 100%;
+}
+
+.configurationContainer > div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.quizzInterfaceContainer button {
+    border: none;
+    background: green;
+    color: white;
+    padding: 0.8rem 1rem 0.8rem 1rem;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    font-weight: bold;
+    width: fit-content;
+    height: fit-content;
+}
+
+.quizzInterfaceContainer > img {
+    height: 10rem;
+    width: 10rem;
+}
