@@ -12,8 +12,8 @@ export default function Home() {
 			</Head>
 
 			<div className={styles.menu}>
-				<a href="#startNow">Início</a>
-				<a href="#contactUs">Sobre nós</a>
+				<a href="#aboutUs">Sobre nós</a>
+				<a href="#contactUs">Entre em contato</a>
 				<a href="#contributeWithUs">Contribua</a>
 			</div>
 

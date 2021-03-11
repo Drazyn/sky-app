@@ -1,5 +1,5 @@
 .container {
-    height: 100%;
+    height: 100vh;
     margin: 0 auto;
     max-width: 992px;
     padding: 2rem;
@@ -9,42 +9,54 @@
 
 .container > div {
     background: var(--box-color);
-    max-width: 1250px;
+    width: 100%;
     display: flex;
-    padding: 2rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
     border-radius: 3rem;
+}
+
+@media(max-width: 450px) /* Caso o width seja ATÉ 1080px, vamos utilizar os seguintes valores */
+{
+    .container > div > h1 {
+        font-size: ;
+    }
 }
 
 .container > div:not(:first-child) {
     margin-top: 2rem;
 }
 
-.container > div:last-child {
-    margin-bottom: 2rem;
-}
-
-.container > div > h1 {
-}
-
-.menu {
+.container .menu {
+    flex-direction: row;
+    padding: 1rem;
     justify-content: space-around;
+    
 }
 
-.menu a {
+@media(max-width: 320px) /* Caso o width seja ATÉ 1080px, vamos utilizar os seguintes valores */
+{
+    .container .menu {
+        flex-direction: column;
+    }
+}
+
+.container .menu a {
     font-weight: bold;
-    font-size: large;
 }
 
-.startNow {
+.container .startNow {
     margin-top: 2rem;
 }
 
-.startNow > img {
-    width: 10rem;
-    height: 10rem;
+.container .startNow > img {
+    width: 8rem;
+    height: 8rem;
 }
 
-.startNow > div {
+.container .startNow > div {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -52,7 +64,7 @@
     align-items: center;
 }
 
-.startNow > div button {
+.container .startNow > div button {
     color: white;
     background: var(--background);
     border: none;
@@ -61,45 +73,53 @@
     height: fit-content;
     padding: 1rem 2rem 1rem 2rem;
     font-size: 1.2rem;
+    margin-top: 1.2rem;
 }
 
-.aboutUs {
+.container .aboutUs {
     display: flex;
     flex-direction: column;
 }
 
-.aboutUs > div {
+.container .aboutUs > div {
     display: flex;
+    flex-direction: column;
     width: 100%;
 }
 
-.aboutUs > div p {
+.container .aboutUs > div p {
     margin-right: 1.5rem;
-    display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.aboutUs .profiles {
+.container .aboutUs .profiles {
     display: flex;
     padding: 1rem;
     justify-content: space-around;
     align-items: center;
 }
 
-.aboutUs .profiles > img {
+.container .aboutUs .profiles > img {
     width: 10rem;
     height: 10rem;
     border-radius: 5rem;
     padding: 0.5rem;
 }
 
-.contactUs {
+@media(max-width: 400px) /* Caso o width seja ATÉ 1080px, vamos utilizar os seguintes valores */
+{
+    .container .aboutUs .profiles {
+        flex-direction: column;
+    }
+}
+
+.container .contactUs {
     display: flex;
     flex-direction: column;
 }
 
-.contactUs > div {
+.container .contactUs > div {
     display: flex;
     width: 100%;
     justify-content: space-around;
@@ -114,12 +134,20 @@
 }
 
 .contactUs > div .network img {
-    width: 100px;
-    height: 100px;
+    width: 6rem;
+    height: 6rem;
 }
 
 .contactUs > div .network strong {
     margin-top: 0.5rem;
+}
+
+@media(max-width: 400px) /* Caso o width seja ATÉ 1080px, vamos utilizar os seguintes valores */
+{
+    .contactUs > div {
+        flex-direction: column;
+        justify-content: space-around;
+    }
 }
 
 .contributeWithUs {
@@ -129,11 +157,12 @@
 
 .contributeWithUs > div {
     display: flex;
+    margin-top: 1rem;
 }
 
 .contributeWithUs > div > img {
-    width: 10rem;
-    height: 10rem;
+    width: 8rem;
+    height: 8rem;
 }
 
 .contributeWithUs > div > div {
@@ -153,4 +182,18 @@
     height: fit-content;
     padding: 1rem 2rem 1rem 2rem;
     font-size: 1.2rem;
+    margin-top: 1rem;
+}
+
+@media(max-width: 450px) /* Caso o width seja ATÉ 1080px, vamos utilizar os seguintes valores */
+{
+    .contributeWithUs > div {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .contributeWithUs > div > div {
+        padding: 2rem 0 2rem 0; 
+    }
 }
