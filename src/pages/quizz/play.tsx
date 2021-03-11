@@ -136,7 +136,7 @@ export default function PlayQuizz() {
                     questionNumber = questionNumber + 1;
                     return (
                         <div key={`key${questionNumber}`}>
-                            <input type="radio" name={`question-${questionId}-answers`} id={`question-${questionId}-answers-${questionNumber}`} value={`${questionNumber}`} onChange={handleChange} checked={(questionNumber == 1 ? `1` : "0")} />
+                            <input type="radio" name={`question-${questionId}-answers`} id={`question-${questionId}-answers-${questionNumber}`} value={`${questionNumber}`} onChange={handleChange} />
                             <label htmlFor={`question-${questionId}-answers-${questionNumber}`}>{value.text}</label>
                         </div>
                     );
