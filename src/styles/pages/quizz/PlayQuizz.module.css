@@ -45,6 +45,12 @@
     margin-top: 1rem;
 }
 
+.answersContainer RadioGroup {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
+
 .answersContainer > div input[type="radio"] {
     display: none;
 }
@@ -106,7 +112,8 @@
     justify-content: center;
     align-items: center;
 
-    background: #FFFFFF;
+    color: #FFFFFF;
+    font-weight: bold;
     border: none;
     height: fit-content;
     padding: 1rem;

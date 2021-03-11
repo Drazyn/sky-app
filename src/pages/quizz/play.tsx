@@ -1,4 +1,6 @@
-import { useState } from 'react';
+import { Button, FormControl, FormControlLabel, FormHelperText, FormLabel, Radio, RadioGroup } from '@material-ui/core';
+import { useEffect, useState } from 'react';
+
 import styles from '../../styles/pages/quizz/PlayQuizz.module.css';
 
 interface Answers {
@@ -9,6 +11,7 @@ interface Answers {
 interface QuestionData {
     text: string;
     options: Answers[];
+    sorted?: boolean;
 }
 
 function QuizzAnswers() {
@@ -18,7 +21,7 @@ function QuizzAnswers() {
 export default function PlayQuizz() {
 
     const questionSample = {
-        text: "ONE Uma das constelações que estará visível para você será Órion. Qual é a estrela mais brilhante dessa constelação?",
+        text: "ONE Uma das constelações que estará visível para Você será Órion. Qual é a estrela mais brilhante dessa constelação?",
         options: [
             { text: "Sirius", correct: false },
             { text: "Beteugeulse", correct: false },
@@ -30,7 +33,7 @@ export default function PlayQuizz() {
 
     const questions = [
         {
-            text: "Uma das constelações que estará visível para você será Órion. Qual é a estrela mais brilhante dessa constelação?",
+            text: "Uma das constelações que estará visível para Você será Órion. Qual é a estrela mais brilhante dessa constelação?",
             options: [
                 { text: "Sirius", correct: false },
                 { text: "Beteugeulse", correct: false },
@@ -40,7 +43,7 @@ export default function PlayQuizz() {
             ],
         },
         {
-            text: "Qual dos seguintes objetos messier estão na constelação de Hercules?",
+            text: "Qual dos seguintes objetos messier está na constelação de Hercules?",
             options: [
                 { text: "M13", correct: true },
                 { text: "M31", correct: false },
@@ -60,7 +63,7 @@ export default function PlayQuizz() {
             ],
         },
         {
-            text: "Qual dos seguintes objetos messier NÃO estão na constelação Auriga?",
+            text: "Qual dos seguintes objetos messier NÃO está na constelação Auriga?",
             options: [
                 { text: "M35", correct: true },
                 { text: "M36", correct: false },
@@ -71,60 +74,83 @@ export default function PlayQuizz() {
         },
     ] as QuestionData[];
 
-    const [question, setQuestion] = useState<QuestionData>(questions[0]);
+    const [question, setQuestion] = useState<QuestionData>(sortQuestion(questions[0]));
     const [questionId, setQuestionId] = useState<number>(0);
     const [selectedAnswer, setSelectedAnswer] = useState<number>(0);
+    const [scores, setScores] = useState<number>(0);
 
     //const [scores, setScores] = useState<number>(0);
+
+    function sortQuestion(questionInformation) {
+        let copy = questionInformation;
+        //copy.options.sort(() => Math.random() - 0.5);
+        return copy;
+    }
+
+    function clearOptions() {
+
+    }
 
     function handleConfirmButton() {
         if (selectedAnswer == -1) {
             alert("Você não selecionou resposta alguma!");
         } else {
+
+            if (question.options[selectedAnswer].correct)
+                setScores((scores + 1));
+
             alert(`Você escolheu a resposta "${question.options[selectedAnswer].text}"!`);
 
             if (question.options[selectedAnswer].correct) {
                 alert("Você acertou a questão!");
-                scores = scores + 1;
-                console.log(scores);
             } else {
                 alert("Você errou a questão!");
             }
 
+            clearOptions()
             goNextQuestion();
         }
 
     }
 
     function handleNextButton() {
-        alert("Você clicou no botão Pular resposta!");
+        alert("Você pulou a resposta!");
+        clearOptions()
         goNextQuestion();
     }
 
     function goNextQuestion() {
 
-        if (questions.length == questionId + 1) {
-            alert(`Você fez todas as questões acertando ${scores} de ${questions.length} questões.`);
+        if (questions.length == (questionId + 1)) {
+            alert(`Você finalizou todas as ${questions.length} questões.`);
             return;
         }
 
-        setQuestion(questions[questionId + 1]);
+        setQuestion(sortQuestion(questions[questionId + 1]));
         setQuestionId(questionId + 1);
     }
 
     function handleChange(event) {
         let v = Number(event.target.value);
+
+        //event.target.setChecked(false);
+
+        console.log(event);
+
         setSelectedAnswer((v - 1));
     }
 
     let questionNumber = 0;
-    let scores = 0;
 
     return (
         <div className={styles.playQuizzContainer}>
 
             <div className={styles.pageTitleContainer}>
-                <strong>Questão {questionId + 1}</strong>
+                <strong>questão {questionId + 1}</strong>
+            </div>
+
+            <div className={styles.pageTitleContainer} style={{ background: 'white' }}>
+                <strong>Você possui {scores}/{questions.length} pontos!</strong>
             </div>
 
             <div className={styles.questionContainer}>
