@@ -1,0 +1,39 @@
+{
+    "terminal.integrated.detectLocale": "on",
+    "[css]": {
+        "files.encoding": "utf8",
+        "editor.suggest.insertMode": "replace"
+    },
+    "[html]": {
+        "files.encoding": "utf8",
+        "editor.suggest.insertMode": "replace"
+    },
+    "[html]": {
+        "files.encoding": "utf8",
+        "editor.suggest.insertMode": "replace"
+    },
+    "[json]": {
+        "files.encoding": "utf8",
+        "editor.suggest.insertMode": "replace"
+    },
+    "[javascript]": {
+        "files.encoding": "utf8",
+        "editor.suggest.insertMode": "replace"
+    },
+    "[javascriptreact]": {
+        "files.encoding": "utf8",
+        "editor.suggest.insertMode": "replace"
+    },
+    "[typescriptreact]": {
+        "files.encoding": "utf8",
+        "editor.suggest.insertMode": "replace"
+    },
+    "[c++]": {
+        "files.encoding": "windows1256",
+        "editor.suggest.insertMode": "replace"
+    },
+    "[lua]": {
+        "files.encoding": "windows1256",
+        "editor.suggest.insertMode": "replace"
+    },
+}

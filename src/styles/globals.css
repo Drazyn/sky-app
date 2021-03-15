@@ -10,14 +10,14 @@
 	--box-color: #F2F3F5;
 }
 
-@media(max-width: 1080px) /* Caso o width seja ATÉ 1080px, vamos utilizar os seguintes valores */
+@media(max-width: 1080px) /* Caso o width seja ATï¿½ 1080px, vamos utilizar os seguintes valores */
 {
     html {
-        font-size: 93.75%; /* Acessível e responsível. // As pessoas podem alterar seus font-size padrão, então utilizar em termos de percentuais é ótimo para globalizar o uso da responsividade. */
+        font-size: 93.75%; /* Acessï¿½vel e responsï¿½vel. // As pessoas podem alterar seus font-size padrï¿½o, entï¿½o utilizar em termos de percentuais ï¿½ ï¿½timo para globalizar o uso da responsividade. */
     }
 }
 
-@media(max-width: 720px) /* Caso o width seja ATÉ 720px, vamos utilizar os seguintes valores */
+@media(max-width: 720px) /* Caso o width seja ATï¿½ 720px, vamos utilizar os seguintes valores */
 {
     html {
         font-size: 87.50%;
@@ -40,4 +40,10 @@ button {
 a {
     color: inherit;
     text-decoration: none;
+}
+
+.SkyAppLogo {
+    width: 10rem;
+    height: 10rem;
+    margin-top: initial;
 }

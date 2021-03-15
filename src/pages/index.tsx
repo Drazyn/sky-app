@@ -18,7 +18,7 @@ export default function Home() {
 			</div>
 
 			<div id="startNow" className={styles.startNow}>
-				<img src="/logo.png" alt="logo" />
+				<img className="SkyAppLogo" src="/logo-darkmode.png" alt="logo" />
 				<div>
 					<p>Você quer reconhecer as estrelas do céu? Distinguir as constelações? Ou até mesmo encontrar os objetos de céu profundo como nebulosas, galáxias e aglomerados?Treine suas habilidades de reconhecimento de céu com o Sky App!</p>
 					<button>

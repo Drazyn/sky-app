@@ -31,6 +31,12 @@
     padding: 2rem;
     font-weight: bold;
     border-radius: 1rem;
+    width: 100%;
+    text-align: center;
+}
+
+.playQuizzContainer form {
+    width: 100%;
 }
 
 .answersContainer {
@@ -94,11 +100,6 @@
     align-items: center;
 }
 
-.playQuizzContainer img {
-    width: 8rem;
-    height: 8rem;
-}
-
 .buttonsContainer {
     width: 100%;
     display: flex;
@@ -107,7 +108,7 @@
     font-weight: bold;
 }
 
-.buttonsContainer > button {
+.buttonsContainer > input {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -115,7 +116,6 @@
     color: #FFFFFF;
     font-weight: bold;
     border: none;
-    height: fit-content;
     padding: 1rem;
     width: 8rem;
 }

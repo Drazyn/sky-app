@@ -1,8 +1,14 @@
 import styles from '../../styles/pages/quizz/QuizzInterface.module.css';
 import Link from 'next/link';
-import Image from 'next/image';
+import { useContext } from 'react';
+import { QuizzContext } from '../../contexts/QuizzContext';
 
 export default function QuizzInterface() {
+
+    const { totalQuestions, changeTotalQuestions, questions } = useContext(QuizzContext);
+
+    changeTotalQuestions(questions.length);
+
     return (
         <div className={styles.quizzInterfaceContainer}>
             <div className={styles.pageTitleContainer}>
@@ -12,7 +18,7 @@ export default function QuizzInterface() {
             <div className={styles.configurationContainer}>
                 <div>
                     <strong>Quantidade de questões</strong>
-                    <strong>3</strong>
+                    <strong>{totalQuestions}</strong>
                 </div>
                 <div>
                     <strong>Dificuldade</strong>
@@ -20,9 +26,11 @@ export default function QuizzInterface() {
                 </div>
             </div>
 
-            <button><Link href="/quizz/play">Continuar</Link></button>
-
-            <img src="/logo-darkmode.png" alt="logo" />
+            <div className={styles.buttonsContainer}>
+                <button><Link href="/quizz/play">Continuar</Link></button>
+                <button><Link href="/">Retornar</Link></button>
+            </div>
+            <img className="SkyAppLogo" src="/logo-darkmode.png" alt="logo" />
         </div>
     );
 }
