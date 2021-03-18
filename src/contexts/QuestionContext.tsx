@@ -56,7 +56,7 @@ export function QuestionContextProvider({ children }: QuestionProviderProps) {
     const stars = starsData as StarData[];
     const deepSkyObjects = deepSkyObjectsData as DeepSkyObjectData[];
 
-    const [questions, setQuestions] = useState<QuestionData[]>([]);
+    const [questions, setQuestions] = useState<QuestionData[]>(questionsJson);
 
     const deepSkyObjectsTypeList = [] as string[];
 
