@@ -60,8 +60,8 @@ export function QuestionContextProvider({ children }: QuestionProviderProps) {
 
     const deepSkyObjectsTypeList = [] as string[];
 
-    function getConstellationByName(constellationName: string) {
-        return constellations.find(element => (element.name == constellationName)) as AsterismData;
+    function getConstellationByName(constellationName: string): AsterismData {
+        return constellations.find(element => (element.name == constellationName));
     }
 
     useEffect(() => { /* Esse é o inicializador, que constrói o array constellations */
@@ -89,8 +89,6 @@ export function QuestionContextProvider({ children }: QuestionProviderProps) {
 
         });
 
-        console.log(deepSkyObjectsTypeList);
-
         let sample = [] as QuestionData[];
 
         sample.push(getQuestionFirstTemplateData());
@@ -113,7 +111,7 @@ export function QuestionContextProvider({ children }: QuestionProviderProps) {
 
         let choosedConstellation = possibleConstellations[Math.floor(Math.random() * possibleConstellations.length)] as AsterismData;
 
-        let choosedStars = choosedConstellation.stars;
+        let choosedStars = choosedConstellation.stars as StarData[];
 
         let brighestStar = {
             apparentMagnitude: 60
@@ -129,9 +127,9 @@ export function QuestionContextProvider({ children }: QuestionProviderProps) {
             { text: brighestStar.name, correct: true }
         ] as Answers[];
 
-        choosedStars.sort(() => Math.random() - 0.5).map(item => {
-            if (options.length < 5 && item.name != brighestStar.name) {
-                options.push({ text: item.name, correct: false });
+        choosedStars.sort(() => Math.random() - 0.5).map(star => {
+            if (options.length < 5 && star.name != brighestStar.name) {
+                options.push({ text: star.name, correct: false });
             }
         });
 
@@ -144,17 +142,17 @@ export function QuestionContextProvider({ children }: QuestionProviderProps) {
     }
 
     function getQuestionSecondTemplateData(): QuestionData {
-        let choosedConstellation = constellations[Math.floor(Math.random() * constellations.length)];
-        let index = Math.floor(Math.random() * choosedConstellation.deepSkyObjects.length);
-        let choosedDeepSkyObject = choosedConstellation.deepSkyObjects[index];
+        let choosedConstellation = constellations[Math.floor(Math.random() * constellations.length)] as AsterismData;
+
+        let choosedDeepSkyObject = choosedConstellation.deepSkyObjects[Math.floor(Math.random() * choosedConstellation.deepSkyObjects.length)];
 
         let options = [
             { text: getDeepSkyObjectIdentification(choosedDeepSkyObject), correct: true }
         ] as Answers[];
 
-        deepSkyObjects.sort(() => Math.random() - 0.5).map(item => {
-            if (options.length < 5 && item.constellation != choosedConstellation.name) {
-                options.push({ text: `M${item.messierNumber}`, correct: false });
+        deepSkyObjects.sort(() => Math.random() - 0.5).map(deepSkyObject => {
+            if (options.length < 5 && deepSkyObject.constellation != choosedConstellation.name) {
+                options.push({ text: getDeepSkyObjectIdentification(deepSkyObject), correct: false });
             }
         });
 
