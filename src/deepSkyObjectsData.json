@@ -1,0 +1,86 @@
+[
+    {
+        "name": "Grande Nebulosa de Órion",
+        "type": "Nebulosa",
+        "messierNumber": 42,
+        "constellation": "Órion"
+    },
+    {
+        "name": "M78",
+        "type": "Nebulosa",
+        "messierNumber": 78,
+        "constellation": "Órion"
+    },
+    {
+        "name": "Grande Aglomerado Globular de Hércules",
+        "type": "Aglomerado Globular",
+        "messierNumber": 13,
+        "constellation": "Hércules"
+    },
+    {
+        "name": "M92",
+        "type": "Aglomerado Globular",
+        "messierNumber": 92,
+        "constellation": "Hércules"
+    },
+    {
+        "name": "Galáxia de Andrômeda",
+        "type": "Galáxia",
+        "messierNumber": 31,
+        "constellation": "Andrômeda"
+    },
+    {
+        "name": "M32",
+        "type": "Galáxia",
+        "messierNumber": 32,
+        "constellation": "Andrômeda"
+    },
+    {
+        "name": "M110",
+        "type": "Galáxia",
+        "messierNumber": 110,
+        "constellation": "Andrômeda"
+    },
+    {
+        "name": "Nebulosa do Anel",
+        "type": "Nebulosa",
+        "messierNumber": 57,
+        "constellation": "Lyra"
+    },
+    {
+        "name": "M56",
+        "type": "Aglomerado Globular",
+        "messierNumber": 56,
+        "constellation": "Lyra"
+    },
+    {
+        "name": "M36",
+        "type": "Aglomerado Aberto",
+        "messierNumber": 36,
+        "constellation": "Auriga"
+    },
+    {
+        "name": "M38",
+        "type": "Aglomerado Aberto",
+        "messierNumber": 38,
+        "constellation": "Auriga"
+    },
+    {
+        "name": "M37",
+        "type": "Aglomerado Aberto",
+        "messierNumber": 37,
+        "constellation": "Auriga"
+    },
+    {
+        "name": "Galáxia Cata-vento do Sul",
+        "type": "Nebulosa",
+        "messierNumber": 83,
+        "constellation": "Hydra"
+    },
+    {
+        "name": "M68",
+        "type": "Aglomerado Globular",
+        "messierNumber": 68,
+        "constellation": "Hydra"
+    }
+]

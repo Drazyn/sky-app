@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Rigel",
+        "bayerDesignation": "beta",
+        "apparentMagnitude": 0.15,
+        "constellation": "Órion"
+    },
+    {
+        "name": "Bellatrix",
+        "bayerDesignation": "gama",
+        "apparentMagnitude": 1.60,
+        "constellation": "Órion"
+    },
+    {
+        "name": "Saiph",
+        "bayerDesignation": "kappa",
+        "apparentMagnitude": 2.05,
+        "constellation": "Órion"
+    },
+    {
+        "name": "Alnitak",
+        "bayerDesignation": "zeta",
+        "apparentMagnitude": 1.85,
+        "constellation": "Órion"
+    },
+    {
+        "name": "Alnilam",
+        "bayerDesignation": "eta",
+        "apparentMagnitude": 1.65,
+        "constellation": "Órion"
+    },
+    {
+        "name": "Mintaka",
+        "bayerDesignation": "sigma",
+        "apparentMagnitude": 2.40,
+        "constellation": "Órion"
+    },
+    {
+        "name": "Betelgeuse",
+        "bayerDesignation": "alpha",
+        "apparentMagnitude": 0.45,
+        "constellation": "Órion"
+    }
+]

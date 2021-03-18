@@ -4,6 +4,7 @@ import { QuizzContext } from '../../contexts/QuizzContext';
 import { useRouter } from 'next/router';
 
 import styles from '../../styles/pages/quizz/PlayQuizz.module.css';
+import { QuestionContext } from '../../contexts/QuestionContext';
 
 interface Answers {
     text: string;
@@ -24,7 +25,8 @@ export default function PlayQuizz() {
 
     const router = useRouter();
 
-    const { questions, increaseScore } = useContext(QuizzContext);
+    const { increaseScore } = useContext(QuizzContext);
+    const { questions } = useContext(QuestionContext);
 
     const [question, setQuestion] = useState<QuestionData>(sortQuestion(questions[0]));
     const [questionId, setQuestionId] = useState<number>(0);

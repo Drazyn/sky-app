@@ -1,13 +1,17 @@
 import styles from '../../styles/pages/quizz/QuizzInterface.module.css';
 import Link from 'next/link';
-import { useContext } from 'react';
+import { useContext, useEffect } from 'react';
 import { QuizzContext } from '../../contexts/QuizzContext';
+import { QuestionContext } from '../../contexts/QuestionContext';
 
 export default function QuizzInterface() {
 
-    const { totalQuestions, changeTotalQuestions, questions } = useContext(QuizzContext);
+    const { totalQuestions, changeTotalQuestions } = useContext(QuizzContext);
+    const { questions } = useContext(QuestionContext);
 
-    changeTotalQuestions(questions.length);
+    useEffect(() => {
+        changeTotalQuestions(questions.length);
+    }, []);
 
     return (
         <div className={styles.quizzInterfaceContainer}>

@@ -1,11 +1,14 @@
 import Link from 'next/link';
 import { useContext, useEffect, useState } from 'react';
+import { QuestionContext } from '../../contexts/QuestionContext';
 import { QuizzContext } from '../../contexts/QuizzContext';
 import styles from '../../styles/pages/quizz/EndQuizz.module.css';
 
 export default function EndQuizz() {
 
-    const { questions, scores } = useContext(QuizzContext);
+    const { questions } = useContext(QuestionContext);
+
+    const { scores } = useContext(QuizzContext);
 
     /*const [percent, setPercent] = useState(0);
 
