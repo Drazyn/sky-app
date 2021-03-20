@@ -6,6 +6,12 @@
         "constellation": "Órion"
     },
     {
+        "name": "M43",
+        "type": "Nebulosa",
+        "messierNumber": 43,
+        "constellation": "Órion"
+    },
+    {
         "name": "M78",
         "type": "Nebulosa",
         "messierNumber": 78,
@@ -13,13 +19,13 @@
     },
     {
         "name": "Grande Aglomerado Globular de Hércules",
-        "type": "Aglomerado Globular",
+        "type": "Aglomerado estelar globular",
         "messierNumber": 13,
         "constellation": "Hércules"
     },
     {
         "name": "M92",
-        "type": "Aglomerado Globular",
+        "type": "Aglomerado estelar globular",
         "messierNumber": 92,
         "constellation": "Hércules"
     },
@@ -49,7 +55,7 @@
     },
     {
         "name": "M56",
-        "type": "Aglomerado Globular",
+        "type": "Aglomerado estelar globular",
         "messierNumber": 56,
         "constellation": "Lyra"
     },
@@ -79,8 +85,82 @@
     },
     {
         "name": "M68",
-        "type": "Aglomerado Globular",
+        "type": "Aglomerado estelar globular",
         "messierNumber": 68,
         "constellation": "Hydra"
+    },
+    {
+        "name": "Nebulosa do Caranguejo",
+        "type": "Nebulosa",
+        "messierNumber": 1,
+        "constellation": "Touro"
+    },
+    {
+        "name": "Plêiades",
+        "type": "Aglomerado associado a nebulosidade",
+        "messierNumber": 45,
+        "constellation": "Touro"
+    },
+    {
+        "name": "M35",
+        "type": "Aglomerado estelar aberto",
+        "messierNumber": 35,
+        "constellation": "Gêmeos"
+    },
+    {
+        "name": "M41",
+        "type": "Aglomerado estelar aberto",
+        "messierNumber": 41,
+        "constellation": "Cão Maior"
+    },
+    {
+        "name": "M80",
+        "type": "Aglomerado estelar globular",
+        "messierNumber": 80,
+        "constellation": "Escorpião"
+    },
+    {
+        "name": "M4",
+        "type": "Aglomerado estelar globular",
+        "messierNumber": 4,
+        "constellation": "Escorpião"
+    },
+    {
+        "name": "Agrupamento Borboleta",
+        "type": "Aglomerado estelar aberto",
+        "messierNumber": 6,
+        "constellation": "Escorpião"
+    },
+    {
+        "name": "Agrupamento de Ptolomeu",
+        "type": "Aglomerado estelar aberto",
+        "messierNumber": 7,
+        "constellation": "Escorpião"
+    },
+    {
+        "name": "Nebulosa em Anel",
+        "type": "Nebulosa planetária",
+        "messierNumber": 57,
+        "constellation": "Lyra"
+    },
+    {
+        "name": "M56",
+        "type": "Aglomerado estelar globular",
+        "messierNumber": 56,
+        "constellation": "Lyra"
+    },
+    {
+        "name": "Torre de Resfriamento",
+        "type": "Aglomerado estelar aberto",
+        "messierNumber": 29,
+        "constellation": "Cygnus"
+    },
+    {
+        "name": "Caixinha de Jóias",
+        "type": "Aglomerado estelar aberto",
+        "newGeneralCatalogueNumber": 4755,
+        "constellation": "Cruzeiro do Sul"
     }
+   
+
 ]
