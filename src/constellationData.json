@@ -28,5 +28,50 @@
         "name": "Hydra",
         "stars": [],
         "deepSkyObjects": []
+    },
+    {
+        "name": "Touro",
+        "stars": [],
+        "deepSkyObjects": []
+    },
+    {
+        "name": "Gêmeos",
+        "stars": [],
+        "deepSkyObjects": []
+    },
+    {
+        "name": "Cão Maior",
+        "stars": [],
+        "deepSkyObjects": []
+    },
+    {
+        "name": "Escorpião",
+        "stars": [],
+        "deepSkyObjects": []
+    },
+    {
+        "name": "Lyra",
+        "stars": [],
+        "deepSkyObjects": []
+    },
+    {
+        "name": "Cygnus",
+        "stars": [],
+        "deepSkyObjects": []
+    },
+    {
+        "name": "Aquila",
+        "stars": [],
+        "deepSkyObjects": []
+    },
+    {
+        "name": "Cruzeiro do Sul",
+        "stars": [],
+        "deepSkyObjects": []
+    },
+    {
+        "name": "Ursa Menor",
+        "stars": [],
+        "deepSkyObjects": []
     }
 ]
