@@ -19,13 +19,13 @@
     },
     {
         "name": "Grande Aglomerado Globular de Hércules",
-        "type": "Aglomerado estelar globular",
+        "type": "Aglomerado Globular",
         "messierNumber": 13,
         "constellation": "Hércules"
     },
     {
         "name": "M92",
-        "type": "Aglomerado estelar globular",
+        "type": "Aglomerado Globular",
         "messierNumber": 92,
         "constellation": "Hércules"
     },
@@ -55,7 +55,7 @@
     },
     {
         "name": "M56",
-        "type": "Aglomerado estelar globular",
+        "type": "Aglomerado Globular",
         "messierNumber": 56,
         "constellation": "Lyra"
     },
@@ -85,7 +85,7 @@
     },
     {
         "name": "M68",
-        "type": "Aglomerado estelar globular",
+        "type": "Aglomerado globular",
         "messierNumber": 68,
         "constellation": "Hydra"
     },
@@ -103,37 +103,37 @@
     },
     {
         "name": "M35",
-        "type": "Aglomerado estelar aberto",
+        "type": "Aglomerado Aberto",
         "messierNumber": 35,
         "constellation": "Gêmeos"
     },
     {
         "name": "M41",
-        "type": "Aglomerado estelar aberto",
+        "type": "Aglomerado Aberto",
         "messierNumber": 41,
         "constellation": "Cão Maior"
     },
     {
         "name": "M80",
-        "type": "Aglomerado estelar globular",
+        "type": "Aglomerado Globular",
         "messierNumber": 80,
         "constellation": "Escorpião"
     },
     {
         "name": "M4",
-        "type": "Aglomerado estelar globular",
+        "type": "Aglomerado Globular",
         "messierNumber": 4,
         "constellation": "Escorpião"
     },
     {
         "name": "Agrupamento Borboleta",
-        "type": "Aglomerado estelar aberto",
+        "type": "Aglomerado Aberto",
         "messierNumber": 6,
         "constellation": "Escorpião"
     },
     {
         "name": "Agrupamento de Ptolomeu",
-        "type": "Aglomerado estelar aberto",
+        "type": "Aglomerado Aberto",
         "messierNumber": 7,
         "constellation": "Escorpião"
     },
@@ -145,19 +145,19 @@
     },
     {
         "name": "M56",
-        "type": "Aglomerado estelar globular",
+        "type": "Aglomerado Globular",
         "messierNumber": 56,
         "constellation": "Lyra"
     },
     {
         "name": "Torre de Resfriamento",
-        "type": "Aglomerado estelar aberto",
+        "type": "Aglomerado Aberto",
         "messierNumber": 29,
         "constellation": "Cygnus"
     },
     {
         "name": "Caixinha de Jóias",
-        "type": "Aglomerado estelar aberto",
+        "type": "Aglomerado Aberto",
         "newGeneralCatalogueNumber": 4755,
         "constellation": "Cruzeiro do Sul"
     }
