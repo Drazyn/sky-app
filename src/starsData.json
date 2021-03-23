@@ -259,7 +259,7 @@
         "name": "Aljanah",
         "bayerDesignation": "epsilon",
         "apparentMagnitude": 2.45,
-        "declination": 0.00,
+        "declination": 34.0441,
         "rightAscension": 0.00,
         "constellation": "Cygnus"
     },
@@ -267,7 +267,7 @@
         "name": "Altair",
         "bayerDesignation": "alpha",
         "apparentMagnitude": 0.75,
-        "declination": 0.00,
+        "declination": 8.9179,
         "rightAscension": 0.00,
         "constellation": "Aquila"
     },
@@ -275,7 +275,7 @@
         "name": "Tarazed",
         "bayerDesignation": "gamma",
         "apparentMagnitude": 2.70,
-        "declination": 0.00,
+        "declination": 10.6616,
         "rightAscension": 0.00,
         "constellation": "Aquila"
     },
@@ -283,7 +283,7 @@
         "name": "Okab",
         "bayerDesignation": "zeta",
         "apparentMagnitude": 2.95,
-        "declination": 0.00,
+        "declination": 13.8918,
         "rightAscension": 0.00,
         "constellation": "Aquila"
     },
@@ -291,7 +291,7 @@
         "name": "Acrux",
         "bayerDesignation": "alpha",
         "apparentMagnitude": 1.25,
-        "declination": 0.00,
+        "declination": -63.2152,
         "rightAscension": 0.00,
         "constellation": "Cruzeiro do Sul"
     },
@@ -299,15 +299,7 @@
         "name": "Gacrux",
         "bayerDesignation": "gamma",
         "apparentMagnitude": 1.55,
-        "declination": 0.00,
-        "rightAscension": 0.00,
-        "constellation": "Cruzeiro do Sul"
-    },
-    {
-        "name": "Intrometida",
-        "bayerDesignation": "",
-        "apparentMagnitude": 0.00,
-        "declination": 0.00,
+        "declination": -57.2286,
         "rightAscension": 0.00,
         "constellation": "Cruzeiro do Sul"
     },
@@ -315,7 +307,7 @@
         "name": "Mimosa",
         "bayerDesignation": "beta",
         "apparentMagnitude": 1.25,
-        "declination": 0.00,
+        "declination": -59.8029,
         "rightAscension": 0.00,
         "constellation": "Cruzeiro do Sul"
     },
@@ -339,7 +331,7 @@
         "name": "Polaris",
         "bayerDesignation": "alpha",
         "apparentMagnitude": 1.95,
-        "declination": 0.00,
+        "declination": 89.3558,
         "rightAscension": 0.00,
         "constellation": "Ursa Menor"
     },
@@ -347,7 +339,7 @@
         "name": "Kochab",
         "bayerDesignation": "beta",
         "apparentMagnitude": 2.05,
-        "declination": 0.00,
+        "declination": 74.0653,
         "rightAscension": 0.00,
         "constellation": "Ursa Menor"
     },
@@ -355,7 +347,7 @@
         "name": "Pherkad",
         "bayerDesignation": "gamma",
         "apparentMagnitude": 3.00,
-        "declination": 0.00,
+        "declination": 71.7544,
         "rightAscension": 0.00,
         "constellation": "Ursa Menor"
     }
