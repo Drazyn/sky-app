@@ -27,15 +27,15 @@
         "name": "Alnitak",
         "bayerDesignation": "zeta",
         "apparentMagnitude": 1.85,
-        "declination": 5.6972,
-        "rightAscension": -1.9333,
+        "declination": -1.9333,
+        "rightAscension": 5.6972,
         "constellation": "Órion"
     },
     {
         "name": "Alnilam",
         "bayerDesignation": "eta",
         "apparentMagnitude": 1.65,
-        "declination": 0.00,
+        "declination": -1.1916,
         "rightAscension": 0.00,
         "constellation": "Órion"
     },
@@ -43,7 +43,7 @@
         "name": "Mintaka",
         "bayerDesignation": "sigma",
         "apparentMagnitude": 2.40,
-        "declination": 0.00,
+        "declination": -0.2866,
         "rightAscension": 0.00,
         "constellation": "Órion"
     },
@@ -51,7 +51,7 @@
         "name": "Betelgeuse",
         "bayerDesignation": "alpha",
         "apparentMagnitude": 0.45,
-        "declination": 0.00,
+        "declination": 7.4084,
         "rightAscension": 0.00,
         "constellation": "Órion"
     },
@@ -59,7 +59,7 @@
         "name": "Aldebaran",
         "bayerDesignation": "alpha",
         "apparentMagnitude": 0.85,
-        "declination": 0.00,
+        "declination": 16.5511,
         "rightAscension": 0.00,
         "constellation": "Touro"
     },
@@ -67,7 +67,7 @@
         "name": "Elnath",
         "bayerDesignation": "beta",
         "apparentMagnitude": -1.42,
-        "declination": 0.00,
+        "declination": 28.6259,
         "rightAscension": 0.00,
         "constellation": "Touro"
     },
@@ -75,7 +75,7 @@
         "name": "Pollux",
         "bayerDesignation": "beta",
         "apparentMagnitude": 1.15,
-        "declination": 0.00,
+        "declination": 27.9753,
         "rightAscension": 0.00,
         "constellation": "Gêmeos"
     },
@@ -83,7 +83,7 @@
         "name": "Castor",
         "bayerDesignation": "alpha",
         "apparentMagnitude": 1.90,
-        "declination": 0.00,
+        "declination": 31.8430,
         "rightAscension": 0.00,
         "constellation": "Gêmeos"
     },
@@ -91,7 +91,7 @@
         "name": "Mebsuta",
         "bayerDesignation": "epsilon",
         "apparentMagnitude": 3.05,
-        "declination": 0.00,
+        "declination": 25.1095,
         "rightAscension": 0.00,
         "constellation": "Gêmeos"
     },
@@ -99,7 +99,7 @@
         "name": "Wasat",
         "bayerDesignation": "delta",
         "apparentMagnitude": 3.50,
-        "declination": 0.00,
+        "declination": 21.9427,
         "rightAscension": 0.00,
         "constellation": "Gêmeos"
     },
@@ -107,7 +107,7 @@
         "name": "Sirius",
         "bayerDesignation": "alpha",
         "apparentMagnitude": -1.45,
-        "declination": 0.00,
+        "declination": -16.7389,
         "rightAscension": 0.00,
         "constellation": "Cão Maior"
     },
@@ -115,7 +115,7 @@
         "name": "Mirzam",
         "bayerDesignation": "beta",
         "apparentMagnitude": 1.95,
-        "declination": 0.00,
+        "declination": -17.9705,
         "rightAscension": 0.00,
         "constellation": "Cão Maior"
     },
@@ -123,7 +123,7 @@
         "name": "Wezen",
         "bayerDesignation": "delta",
         "apparentMagnitude": 1.80,
-        "declination": 0.00,
+        "declination": -26.4310,
         "rightAscension": 0.00,
         "constellation": "Cão Maior"
     },
@@ -131,7 +131,7 @@
         "name": "Adhara",
         "bayerDesignation": "epsilon",
         "apparentMagnitude": 1.50,
-        "declination": 0.00,
+        "declination": -29.0053,
         "rightAscension": 0.00,
         "constellation": "Cão Maior"
     },
@@ -139,7 +139,7 @@
         "name": "Aludra",
         "bayerDesignation": "eta",
         "apparentMagnitude": 2.45,
-        "declination": 0.00,
+        "declination": -29.3486,
         "rightAscension": 0.00,
         "constellation": "Cão Maior"
     },
@@ -147,7 +147,7 @@
         "name": "Antares",
         "bayerDesignation": "alpha",
         "apparentMagnitude": 1.05,
-        "declination": 0.00,
+        "declination": -26.4770,
         "rightAscension": 0.00,
         "constellation": "Escorpião"
     },
@@ -155,7 +155,7 @@
         "name": "Acrab",
         "bayerDesignation": "beta",
         "apparentMagnitude": 2.60,
-        "declination": 0.00,
+        "declination": -19.8622,
         "rightAscension": 0.00,
         "constellation": "Escorpião"
     },
@@ -163,7 +163,7 @@
         "name": "Fang",
         "bayerDesignation": "eta",
         "apparentMagnitude": 2.85,
-        "declination": 0.00,
+        "declination": -26.1732,
         "rightAscension": 0.00,
         "constellation": "Escorpião"
     },
@@ -171,7 +171,7 @@
         "name": "Mula",
         "bayerDesignation": "kappa",
         "apparentMagnitude": 2.35,
-        "declination": 0.00,
+        "declination": -39.030,
         "rightAscension": 0.00,
         "constellation": "Escorpião"
     },
@@ -179,7 +179,7 @@
         "name": "Sargas",
         "bayerDesignation": "theta",
         "apparentMagnitude": 1.85,
-        "declination": 0.00,
+        "declination": -43.0078,
         "rightAscension": 0.00,
         "constellation": "Escorpião"
     },
@@ -187,7 +187,7 @@
         "name": "Larawag",
         "bayerDesignation": "epsilon",
         "apparentMagnitude": 2.25,
-        "declination": 0.00,
+        "declination": -34.3321,
         "rightAscension": 0.00,
         "constellation": "Escorpião"
     },
@@ -195,7 +195,7 @@
         "name": "Shaula",
         "bayerDesignation": "lambda",
         "apparentMagnitude": 1.60,
-        "declination": 0.00,
+        "declination": -37.1162,
         "rightAscension": 0.00,
         "constellation": "Escorpião"
     },
@@ -203,7 +203,7 @@
         "name": "Lesath",
         "bayerDesignation": "upsilon",
         "apparentMagnitude": 2.70,
-        "declination": 0.00,
+        "declination": -37.3096,
         "rightAscension": 0.00,
         "constellation": "Escorpião"
     },
@@ -211,7 +211,7 @@
         "name": "Sheliak",
         "bayerDesignation": "beta",
         "apparentMagnitude": 3.50,
-        "declination": 0.00,
+        "declination": 33.3825,
         "rightAscension": 0.00,
         "constellation": "Lyra"
     },
@@ -219,7 +219,7 @@
         "name": "Sulafat",
         "bayerDesignation": "gamma",
         "apparentMagnitude": 3.25,
-        "declination": 0.00,
+        "declination": 32.7138,
         "rightAscension": 0.00,
         "constellation": "Lyra"
     },
@@ -227,7 +227,7 @@
         "name": "Vega",
         "bayerDesignation": "alpha",
         "apparentMagnitude": 0.00,
-        "declination": 0.00,
+        "declination": 38.7959,
         "rightAscension": 0.00,
         "constellation": "Lyra"
     },
@@ -235,7 +235,7 @@
         "name": "Albireo",
         "bayerDesignation": "beta",
         "apparentMagnitude": 3.35,
-        "declination": 0.00,
+        "declination": 27.9996,
         "rightAscension": 0.00,
         "constellation": "Cygnus"
     },
@@ -243,7 +243,7 @@
         "name": "Sadr",
         "bayerDesignation": "gamma",
         "apparentMagnitude": 2.20,
-        "declination": 0.00,
+        "declination": 40.3192,
         "rightAscension": 0.00,
         "constellation": "Cygnus"
     },
@@ -251,7 +251,7 @@
         "name": "Deneb",
         "bayerDesignation": "alpha",
         "apparentMagnitude": 1.25,
-        "declination": 0.00,
+        "declination": 45.3506,
         "rightAscension": 0.00,
         "constellation": "Cygnus"
     },
