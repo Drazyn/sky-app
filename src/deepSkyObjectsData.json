@@ -3,164 +3,216 @@
         "name": "Grande Nebulosa de Órion",
         "type": "Nebulosa",
         "messierNumber": 42,
+        "declination": 0.00,
+        "rightAscension": 0.00,
         "constellation": "Órion"
     },
     {
         "name": "M43",
         "type": "Nebulosa",
         "messierNumber": 43,
+        "declination": 0.00,
+        "rightAscension": 0.00,
         "constellation": "Órion"
     },
     {
         "name": "M78",
         "type": "Nebulosa",
         "messierNumber": 78,
+        "declination": 0.00,
+        "rightAscension": 0.00,
         "constellation": "Órion"
     },
     {
         "name": "Grande Aglomerado Globular de Hércules",
         "type": "Aglomerado Globular",
         "messierNumber": 13,
+        "declination": 0.00,
+        "rightAscension": 0.00,
         "constellation": "Hércules"
     },
     {
         "name": "M92",
         "type": "Aglomerado Globular",
         "messierNumber": 92,
+        "declination": 0.00,
+        "rightAscension": 0.00,
         "constellation": "Hércules"
     },
     {
         "name": "Galáxia de Andrômeda",
         "type": "Galáxia",
         "messierNumber": 31,
+        "declination": 0.00,
+        "rightAscension": 0.00,
         "constellation": "Andrômeda"
     },
     {
         "name": "M32",
         "type": "Galáxia",
         "messierNumber": 32,
+        "declination": 0.00,
+        "rightAscension": 0.00,
         "constellation": "Andrômeda"
     },
     {
         "name": "M110",
         "type": "Galáxia",
         "messierNumber": 110,
+        "declination": 0.00,
+        "rightAscension": 0.00,
         "constellation": "Andrômeda"
     },
     {
         "name": "Nebulosa do Anel",
         "type": "Nebulosa",
         "messierNumber": 57,
+        "declination": 0.00,
+        "rightAscension": 0.00,
         "constellation": "Lyra"
     },
     {
         "name": "M56",
         "type": "Aglomerado Globular",
         "messierNumber": 56,
+        "declination": 0.00,
+        "rightAscension": 0.00,
         "constellation": "Lyra"
     },
     {
         "name": "M36",
         "type": "Aglomerado Aberto",
         "messierNumber": 36,
+        "declination": 0.00,
+        "rightAscension": 0.00,
         "constellation": "Auriga"
     },
     {
         "name": "M38",
         "type": "Aglomerado Aberto",
         "messierNumber": 38,
+        "declination": 0.00,
+        "rightAscension": 0.00,
         "constellation": "Auriga"
     },
     {
         "name": "M37",
         "type": "Aglomerado Aberto",
         "messierNumber": 37,
+        "declination": 0.00,
+        "rightAscension": 0.00,
         "constellation": "Auriga"
     },
     {
         "name": "Galáxia Cata-vento do Sul",
         "type": "Nebulosa",
         "messierNumber": 83,
+        "declination": 0.00,
+        "rightAscension": 0.00,
         "constellation": "Hydra"
     },
     {
         "name": "M68",
         "type": "Aglomerado globular",
         "messierNumber": 68,
+        "declination": 0.00,
+        "rightAscension": 0.00,
         "constellation": "Hydra"
     },
     {
         "name": "Nebulosa do Caranguejo",
         "type": "Nebulosa",
         "messierNumber": 1,
+        "declination": 0.00,
+        "rightAscension": 0.00,
         "constellation": "Touro"
     },
     {
         "name": "Plêiades",
         "type": "Aglomerado associado a nebulosidade",
         "messierNumber": 45,
+        "declination": 0.00,
+        "rightAscension": 0.00,
         "constellation": "Touro"
     },
     {
         "name": "M35",
         "type": "Aglomerado Aberto",
         "messierNumber": 35,
+        "declination": 0.00,
+        "rightAscension": 0.00,
         "constellation": "Gêmeos"
     },
     {
         "name": "M41",
         "type": "Aglomerado Aberto",
         "messierNumber": 41,
+        "declination": 0.00,
+        "rightAscension": 0.00,
         "constellation": "Cão Maior"
     },
     {
         "name": "M80",
         "type": "Aglomerado Globular",
         "messierNumber": 80,
+        "declination": 0.00,
+        "rightAscension": 0.00,
         "constellation": "Escorpião"
     },
     {
         "name": "M4",
         "type": "Aglomerado Globular",
         "messierNumber": 4,
+        "declination": 0.00,
+        "rightAscension": 0.00,
         "constellation": "Escorpião"
     },
     {
         "name": "Agrupamento Borboleta",
         "type": "Aglomerado Aberto",
         "messierNumber": 6,
+        "declination": 0.00,
+        "rightAscension": 0.00,
         "constellation": "Escorpião"
     },
     {
         "name": "Agrupamento de Ptolomeu",
         "type": "Aglomerado Aberto",
         "messierNumber": 7,
+        "declination": 0.00,
+        "rightAscension": 0.00,
         "constellation": "Escorpião"
     },
     {
         "name": "Nebulosa em Anel",
         "type": "Nebulosa planetária",
         "messierNumber": 57,
+        "declination": 0.00,
+        "rightAscension": 0.00,
         "constellation": "Lyra"
     },
     {
         "name": "M56",
         "type": "Aglomerado Globular",
         "messierNumber": 56,
+        "declination": 0.00,
+        "rightAscension": 0.00,
         "constellation": "Lyra"
     },
     {
         "name": "Torre de Resfriamento",
         "type": "Aglomerado Aberto",
         "messierNumber": 29,
+        "declination": 0.00,
+        "rightAscension": 0.00,
         "constellation": "Cygnus"
     },
     {
         "name": "Caixinha de Jóias",
         "type": "Aglomerado Aberto",
         "newGeneralCatalogueNumber": 4755,
+        "declination": 0.00,
+        "rightAscension": 0.00,
         "constellation": "Cruzeiro do Sul"
     }
-   
-
 ]
