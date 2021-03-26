@@ -6,6 +6,9 @@ import deepSkyObjectsData from '../deepSkyObjectsData.json';
 
 interface QuestionContextData { /* Informação transmitida */
     questions: QuestionData[];
+    constellations: AsterismData[];
+    stars: StarData[];
+    deepSkyObjects: DeepSkyObjectData[];
 };
 
 interface QuestionProviderProps {
@@ -29,6 +32,9 @@ interface StarData {
     apparentMagnitude: number;
     constellation: string;
 
+    declination: number;
+    rightAscension: number;
+
     otherAsterisms?: string[];
 }
 
@@ -36,6 +42,9 @@ interface DeepSkyObjectData {
     name: string;
     type: string;
     constellation: string;
+
+    declination: number;
+    rightAscension: number;
 
     otherAsterisms?: string[];
     messierNumber?: number;
@@ -218,7 +227,10 @@ export function QuestionContextProvider({ children }: QuestionProviderProps) {
         <QuestionContext.Provider
             value={
                 {
-                    questions
+                    questions,
+                    constellations,
+                    stars,
+                    deepSkyObjects
                 }
             }
         >
