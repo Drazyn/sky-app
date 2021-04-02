@@ -28,7 +28,7 @@
         "bayerDesignation": "zeta",
         "apparentMagnitude": 1.85,
         "declination": -1.9333,
-        "rightAscension": 5.6972,
+        "rightAscension": 5.6791,
         "constellation": "Órion"
     },
     {
@@ -36,7 +36,7 @@
         "bayerDesignation": "eta",
         "apparentMagnitude": 1.65,
         "declination": -1.1916,
-        "rightAscension": 0.00,
+        "rightAscension": 5.6033,
         "constellation": "Órion"
     },
     {
@@ -44,7 +44,7 @@
         "bayerDesignation": "sigma",
         "apparentMagnitude": 2.40,
         "declination": -0.2866,
-        "rightAscension": 0.00,
+        "rightAscension": 5.5333,
         "constellation": "Órion"
     },
     {
@@ -52,7 +52,7 @@
         "bayerDesignation": "alpha",
         "apparentMagnitude": 0.45,
         "declination": 7.4084,
-        "rightAscension": 0.00,
+        "rightAscension": 5.9194,
         "constellation": "Órion"
     },
     {
@@ -60,7 +60,7 @@
         "bayerDesignation": "alpha",
         "apparentMagnitude": 0.85,
         "declination": 16.5511,
-        "rightAscension": 0.00,
+        "rightAscension": 4.5986,
         "constellation": "Touro"
     },
     {
@@ -68,7 +68,7 @@
         "bayerDesignation": "beta",
         "apparentMagnitude": -1.42,
         "declination": 28.6259,
-        "rightAscension": 0.00,
+        "rightAscension": 5.4380,
         "constellation": "Touro"
     },
     {
@@ -76,7 +76,7 @@
         "bayerDesignation": "beta",
         "apparentMagnitude": 1.15,
         "declination": 27.9753,
-        "rightAscension": 0.00,
+        "rightAscension": 7.7772,
         "constellation": "Gêmeos"
     },
     {
@@ -84,7 +84,7 @@
         "bayerDesignation": "alpha",
         "apparentMagnitude": 1.90,
         "declination": 31.8430,
-        "rightAscension": 0.00,
+        "rightAscension": 7.5763,
         "constellation": "Gêmeos"
     },
     {
@@ -92,7 +92,7 @@
         "bayerDesignation": "epsilon",
         "apparentMagnitude": 3.05,
         "declination": 25.1095,
-        "rightAscension": 0.00,
+        "rightAscension": 6.7319,
         "constellation": "Gêmeos"
     },
     {
@@ -100,7 +100,7 @@
         "bayerDesignation": "delta",
         "apparentMagnitude": 3.50,
         "declination": 21.9427,
-        "rightAscension": 0.00,
+        "rightAscension": 7.3352,
         "constellation": "Gêmeos"
     },
     {
@@ -108,7 +108,7 @@
         "bayerDesignation": "alpha",
         "apparentMagnitude": -1.45,
         "declination": -16.7389,
-        "rightAscension": 0.00,
+        "rightAscension": 6.7522,
         "constellation": "Cão Maior"
     },
     {
@@ -116,7 +116,7 @@
         "bayerDesignation": "beta",
         "apparentMagnitude": 1.95,
         "declination": -17.9705,
-        "rightAscension": 0.00,
+        "rightAscension": 6.3780,
         "constellation": "Cão Maior"
     },
     {
@@ -124,7 +124,7 @@
         "bayerDesignation": "delta",
         "apparentMagnitude": 1.80,
         "declination": -26.4310,
-        "rightAscension": 0.00,
+        "rightAscension": 7.1397,
         "constellation": "Cão Maior"
     },
     {
@@ -132,7 +132,7 @@
         "bayerDesignation": "epsilon",
         "apparentMagnitude": 1.50,
         "declination": -29.0053,
-        "rightAscension": 0.00,
+        "rightAscension": 6.9769,
         "constellation": "Cão Maior"
     },
     {
@@ -140,7 +140,7 @@
         "bayerDesignation": "eta",
         "apparentMagnitude": 2.45,
         "declination": -29.3486,
-        "rightAscension": 0.00,
+        "rightAscension": 7.4013,
         "constellation": "Cão Maior"
     },
     {
@@ -148,7 +148,7 @@
         "bayerDesignation": "alpha",
         "apparentMagnitude": 1.05,
         "declination": -26.4770,
-        "rightAscension": 0.00,
+        "rightAscension": 16.4900,
         "constellation": "Escorpião"
     },
     {
@@ -156,7 +156,7 @@
         "bayerDesignation": "beta",
         "apparentMagnitude": 2.60,
         "declination": -19.8622,
-        "rightAscension": 0.00,
+        "rightAscension": 16.0905,
         "constellation": "Escorpião"
     },
     {
@@ -164,7 +164,7 @@
         "bayerDesignation": "eta",
         "apparentMagnitude": 2.85,
         "declination": -26.1732,
-        "rightAscension": 0.00,
+        "rightAscension": 15.9808,
         "constellation": "Escorpião"
     },
     {
@@ -172,7 +172,7 @@
         "bayerDesignation": "kappa",
         "apparentMagnitude": 2.35,
         "declination": -39.030,
-        "rightAscension": 0.00,
+        "rightAscension": 17.7080,
         "constellation": "Escorpião"
     },
     {
@@ -180,7 +180,7 @@
         "bayerDesignation": "theta",
         "apparentMagnitude": 1.85,
         "declination": -43.0078,
-        "rightAscension": 0.00,
+        "rightAscension": 17.6219,
         "constellation": "Escorpião"
     },
     {
@@ -188,7 +188,7 @@
         "bayerDesignation": "epsilon",
         "apparentMagnitude": 2.25,
         "declination": -34.3321,
-        "rightAscension": 0.00,
+        "rightAscension": 16.8355,
         "constellation": "Escorpião"
     },
     {
@@ -196,7 +196,7 @@
         "bayerDesignation": "lambda",
         "apparentMagnitude": 1.60,
         "declination": -37.1162,
-        "rightAscension": 0.00,
+        "rightAscension": 17.5600,
         "constellation": "Escorpião"
     },
     {
@@ -204,7 +204,7 @@
         "bayerDesignation": "upsilon",
         "apparentMagnitude": 2.70,
         "declination": -37.3096,
-        "rightAscension": 0.00,
+        "rightAscension": 17.5125,
         "constellation": "Escorpião"
     },
     {
@@ -212,7 +212,7 @@
         "bayerDesignation": "beta",
         "apparentMagnitude": 3.50,
         "declination": 33.3825,
-        "rightAscension": 0.00,
+        "rightAscension": 18.8344,
         "constellation": "Lyra"
     },
     {
@@ -220,7 +220,7 @@
         "bayerDesignation": "gamma",
         "apparentMagnitude": 3.25,
         "declination": 32.7138,
-        "rightAscension": 0.00,
+        "rightAscension": 18.9822,
         "constellation": "Lyra"
     },
     {
@@ -228,7 +228,7 @@
         "bayerDesignation": "alpha",
         "apparentMagnitude": 0.00,
         "declination": 38.7959,
-        "rightAscension": 0.00,
+        "rightAscension": 18.6155,
         "constellation": "Lyra"
     },
     {
@@ -236,7 +236,7 @@
         "bayerDesignation": "beta",
         "apparentMagnitude": 3.35,
         "declination": 27.9996,
-        "rightAscension": 0.00,
+        "rightAscension": 19.5119,
         "constellation": "Cygnus"
     },
     {
@@ -244,7 +244,7 @@
         "bayerDesignation": "gamma",
         "apparentMagnitude": 2.20,
         "declination": 40.3192,
-        "rightAscension": 0.00,
+        "rightAscension": 20.3702,
         "constellation": "Cygnus"
     },
     {
@@ -252,7 +252,7 @@
         "bayerDesignation": "alpha",
         "apparentMagnitude": 1.25,
         "declination": 45.3506,
-        "rightAscension": 0.00,
+        "rightAscension": 20.6902,
         "constellation": "Cygnus"
     },
     {
@@ -260,7 +260,7 @@
         "bayerDesignation": "epsilon",
         "apparentMagnitude": 2.45,
         "declination": 34.0441,
-        "rightAscension": 0.00,
+        "rightAscension": 20.7702,
         "constellation": "Cygnus"
     },
     {
@@ -268,7 +268,7 @@
         "bayerDesignation": "alpha",
         "apparentMagnitude": 0.75,
         "declination": 8.9179,
-        "rightAscension": 0.00,
+        "rightAscension": 19.8463,
         "constellation": "Aquila"
     },
     {
@@ -276,7 +276,7 @@
         "bayerDesignation": "gamma",
         "apparentMagnitude": 2.70,
         "declination": 10.6616,
-        "rightAscension": 0.00,
+        "rightAscension": 19.7708,
         "constellation": "Aquila"
     },
     {
@@ -284,7 +284,7 @@
         "bayerDesignation": "zeta",
         "apparentMagnitude": 2.95,
         "declination": 13.8918,
-        "rightAscension": 0.00,
+        "rightAscension": 19.0900,
         "constellation": "Aquila"
     },
     {
@@ -292,7 +292,7 @@
         "bayerDesignation": "alpha",
         "apparentMagnitude": 1.25,
         "declination": -63.2152,
-        "rightAscension": 0.00,
+        "rightAscension": 12.4430,
         "constellation": "Cruzeiro do Sul"
     },
     {
@@ -300,7 +300,7 @@
         "bayerDesignation": "gamma",
         "apparentMagnitude": 1.55,
         "declination": -57.2286,
-        "rightAscension": 0.00,
+        "rightAscension": 12.5191,
         "constellation": "Cruzeiro do Sul"
     },
     {
@@ -308,23 +308,23 @@
         "bayerDesignation": "beta",
         "apparentMagnitude": 1.25,
         "declination": -59.8029,
-        "rightAscension": 0.00,
+        "rightAscension": 12.7952,
         "constellation": "Cruzeiro do Sul"
     },
     {
         "name": "Delta crucis",
-        "bayerDesignation": "",
-        "apparentMagnitude": 0.00,
-        "declination": 0.00,
-        "rightAscension": 0.00,
+        "bayerDesignation": "delta",
+        "apparentMagnitude": 2.75,
+        "declination": -58.7488,
+        "rightAscension": 12.2522,
         "constellation": "Cruzeiro do Sul"
     },
     {
         "name": "Intrometida",
-        "bayerDesignation": "",
-        "apparentMagnitude": 0.00,
-        "declination": 0.00,
-        "rightAscension": 0.00,
+        "bayerDesignation": "epsilon",
+        "apparentMagnitude": 3.55,
+        "declination": -60.3997,
+        "rightAscension": 12.3558,
         "constellation": "Cruzeiro do Sul"
     },
     {
@@ -332,7 +332,7 @@
         "bayerDesignation": "alpha",
         "apparentMagnitude": 1.95,
         "declination": 89.3558,
-        "rightAscension": 0.00,
+        "rightAscension": 2.5308,
         "constellation": "Ursa Menor"
     },
     {
@@ -340,7 +340,7 @@
         "bayerDesignation": "beta",
         "apparentMagnitude": 2.05,
         "declination": 74.0653,
-        "rightAscension": 0.00,
+        "rightAscension": 14.8444,
         "constellation": "Ursa Menor"
     },
     {
@@ -348,7 +348,7 @@
         "bayerDesignation": "gamma",
         "apparentMagnitude": 3.00,
         "declination": 71.7544,
-        "rightAscension": 0.00,
+        "rightAscension": 15.3452,
         "constellation": "Ursa Menor"
     }
 ]
